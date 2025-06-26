@@ -1,0 +1,334 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.header1{
+    height: 60px;
+    background-color: rgb(17, 16, 16);
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo-bar{
+    display:flex;
+    height: 55px;
+    width: 100px;
+    color:white;
+}
+.logo{
+    background-image: url("amazon\ -\ Copy.png");
+    background-size:cover;
+    height: 55px;
+    width: 100%;
+}
+.border{
+    border:1px solid transparent;
+}
+.border2{
+    border:2px solid transparent;
+}
+.border:hover{
+    border:1px solid white;
+}
+.border2:hover{
+    border:2px solid orange;
+}
+.info{
+    font-size: 0.8rem;
+    
+}
+.add-icon{
+    display: flex;
+    font-size: 1.2rem;
+}
+.search-area{
+    height: 45px;
+    width:500px;
+    background-color: white;
+    color:black;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: none;
+}
+.select select{
+    height: 45px;
+    width:50px;
+}
+.searching{
+    height: 45px;
+    width:400px;
+}
+.searching input{
+    border: none;
+    height: 40px;
+    width:100%;
+}
+.search-icon{
+    height: 45px;
+    width:50px;
+}
+.search-icon i{
+    border: none;
+    height: 45px;
+    width:50px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.sign-in {
+    height: 50px;
+    width: 80px;
+    color: white;
+}
+.orders {
+    height: 50px;
+    width: 80px;
+    color: white;
+}
+.p1{
+    margin-top: 10px;
+}
+#p1{
+    font-size: 0.8rem;
+}
+#p2{
+    font-size: 1.1rem;
+}
+.flag{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 10px;
+}
+.cart i{
+    border: none;
+    margin-top: 15px;
+    height: 40px;
+    width:20px;
+}
+.select select{
+    border: none;
+    border-right: 1px solid black;
+}
+.header2{
+    height: 40px;
+    background-color: rgb(36, 34, 34);
+}
+.types{
+    height: 40px;
+    width:70%;
+    background-color: rgb(36, 34, 34);
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+footer{
+    margin-bottom: 0px;
+}
+.footer1{
+    height: 50px;
+    background-color: rgb(44, 43, 43);
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer2{
+    height: 180px;
+    background-color: rgb(22, 22, 22);
+    color:white;
+    display:flex;
+    justify-content: space-evenly;
+}
+.footer2 div{
+    margin-top: 20px;
+}
+.footer3{
+    height: 80px;
+    background-color: rgb(22, 22, 22);
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.state{
+    margin-right: 5px;
+}
+.footer4{
+    height: 100px;
+    background-color: rgb(10, 10, 10);
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer5{
+    height: 50px;
+    background-color: rgb(10, 10, 10);
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#para1{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+#para2{
+    font-size: 0.5rem;
+    font-weight: bold;
+}
+#para3{
+    font-size: 0.5rem;;
+}
+.buy1{
+    height: 600px;
+    display: flex;
+}
+.box1{
+    height:600px;
+    width:360px;
+}
+.img1{
+    background-image: url("box1.png");
+    background-size:cover;
+    height:400px;
+    width:370px;
+}
+.info1{
+    height:100px;
+    width:360px;
+}
+.box2{
+    margin-left: 30px;
+    height:600px;
+    width:360px;
+}
+.img2{
+    background-image: url("box2.png");
+    background-size:cover;
+    height:400px;
+    width:360px;
+} 
+.info2{
+    height:100px;
+    width:360px;
+}
+#btn1{
+    background-color: red;
+    color:white;
+    font-weight: bold;
+}
+#btn2{
+    background-color: yellow;
+    color: black;
+}
+#para{
+    text-decoration: line-through;
+}
+#join{
+    display:inline;
+    justify-content: center;
+    align-items: center;
+}
+.box3{
+    height:600px;
+    width:360px;
+}
+.img3{
+    background-image: url("box3.png");
+    background-size:cover;
+    height:400px;
+    width:360px;
+}
+.info3{
+    height:100px;
+    width:360px;
+}
+.box4{
+    height:600px;
+    width:360px;
+}
+.img4{
+    background-image: url("box4.png");
+    background-size:cover;
+    height:400px;
+    width:360px;
+}
+.info4{
+    height:100px;
+    width:360px;
+}
+.img5{
+    background-image: url("box5.png");
+    background-size:cover;
+    height:400px;
+    width:380px;
+}
+.img6{
+    background-image: url("box6.png");
+    background-size:cover;
+    height:400px;
+    width:380px;
+}
+.img7{
+    background-image: url("box7.png");
+    background-size:cover;
+    height:400px;
+    width:380px;
+}
+.img8{
+    background-image: url("box8.png");
+    background-size:cover;
+    height:400px;
+    width:380px;
+}
+.img9{
+    background-image: url("box9.png");
+    background-size:cover;
+    height:400px;
+    width:400px;
+}
+.img10{
+    background-image: url("box10.png");
+    background-size:cover;
+    height:400px;
+    width:360px;
+}
+.img11{
+    background-image: url("box11.png");
+    background-size:cover;
+    height:400px;
+    width:360px;
+}
+.img12{
+    background-image: url("box12.png");
+    background-size:cover;
+    height:400px;
+    width:360px;
+}
+.img13{
+    background-image: url("box13.png");
+    background-size:cover;
+    height:400px;
+    width:400px;
+}
+.img14{
+    background-image: url("box14.png");
+    background-size:cover;
+    height:400px;
+    width:400px;
+}
+.img15{
+    background-image: url("box15.png");
+    background-size:cover;
+    height:400px;
+    width:360px;
+}
+.img16{
+    background-image: url("box16.png");
+    background-size:cover;
+    height:400px;
+    width:360px;
+}
